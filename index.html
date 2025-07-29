@@ -1,463 +1,139 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>EMDB</title>
-    <link href="emdb.css" rel="stylesheet" type="text/css" />
+	<title>.: AIE Corporation Photography :.</title>
+    <META NAME="DESCRIPTION" CONTENT="AIE Corporation photography for wedding, pre wedding, event, models photography, based in Jakarta, Indonesia.">
+	<META NAME="KEYWORDS" CONTENT="aie, zhao, kunt, zhao kunt, akunt, andre, kuncoro, andre kuncoro, wedding, pre-wedding, photo, photography, album">
+	<META NAME=""="revisit-after" content="2 days">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="SHORTCUT ICON" href="img/aie_kecil.jpg">
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	
+	<!-- Scripts -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.roundabout-1.0.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript">		
+		$(document).ready(function() { //Start up our Featured Project Carosuel
+			$('#featured ul').roundabout({
+				easing: 'easeOutInCirc',
+				duration: 600
+			});
+		});
+	</script>  
+
+	<!--[if IE 6]>
+	<script src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script>
+	  /* EXAMPLE */
+	  DD_belatedPNG.fix('.button');
+	  
+	  /* string argument can be any CSS selector */
+	  /* .png_bg example is unnecessary */
+	  /* change it to what suits you! */
+	</script>
+	<![endif]-->
 </head>
 <body>
-    <div id="top" class="container">
-        <div class="title">
-            Eric's Movie Database
-            <div class="link-buttons grayscale">
-                <a href="https://www.themoviedb.org" class="link-button"><img src="img/themoviedb.png"></a>
-                <a href="https://www.imdb.com" class="link-button"><img src="img/imdb.png"></a>
-                <a href="https://www.rottentomatoes.com" class="link-button"><img src="img/tomatoes.png"></a>
-                <a href="https://www.emdb.eu" class="link-button"><img src="img/emdb.png"></a>
-            </div>
-        </div>
-        <div class="sub-title">
-            <span>Last updated : 15/12/2021</span>
-            <span>Number of movies : 16</span>
-        </div>
-        <div class="header-buttons">
-            <a href="#latest-additions" class="button-darkgray">Latest additions</a>
-            
-            <a href="#movies-a" class="button-darkgray">A</a>
-<a href="#movies-b" class="button-darkgray">B</a>
-<a href="#movies-c" class="button-darkgray">C</a>
-<a href="#movies-d" class="button-darkgray">D</a>
-<a href="#movies-e" class="button-darkgray">E</a>
-<a href="#movies-f" class="button-darkgray">F</a>
-<a href="#movies-g" class="button-darkgray">G</a>
-<a href="#movies-h" class="button-darkgray">H</a>
-<a href="#movies-i" class="button-darkgray">I</a>
-<a href="#movies-j" class="button-darkgray">J</a>
-<a href="#movies-k" class="button-darkgray">K</a>
-<a href="#movies-l" class="button-darkgray">L</a>
-<a href="#movies-m" class="button-darkgray">M</a>
-<a href="#movies-n" class="button-darkgray">N</a>
-<a href="#movies-o" class="button-darkgray">O</a>
-<a href="#movies-p" class="button-darkgray">P</a>
-<a href="#movies-q" class="button-darkgray">Q</a>
-<a href="#movies-r" class="button-darkgray">R</a>
-<a href="#movies-s" class="button-darkgray">S</a>
-<a href="#movies-t" class="button-darkgray">T</a>
-<a href="#movies-u" class="button-darkgray">U</a>
-<a href="#movies-v" class="button-darkgray">V</a>
-<a href="#movies-w" class="button-darkgray">W</a>
-<a href="#movies-x" class="button-darkgray">X</a>
-<a href="#movies-y" class="button-darkgray">Y</a>
-<a href="#movies-z" class="button-darkgray">Z</a>
+	<div id="wrapper" class="container_12 clearfix">
 
-            
-            
-            
-            <a href="./genres/genres.html" class="button-darkgray">Genres</a>
-            <a href="./years.html" class="button-darkgray">Years</a>
-        </div>
+		<!-- Text Logo -->
+		<h1 id="logo" class="grid_4"><img src="img/logo.png" alt="" /></h1>
+		
+		<!-- Navigation Menu -->
+		<ul id="navigation" class="grid_8">
+			<li><a href="contact.html"><span class="meta">Get in touch</span><br />Contact Us</a></li>
+			<li><a href="blog.html"><span class="meta">Latest promotion</span><br />News</a></li>
+			<li><a href="portfolio.html"><span class="meta">Our latest work</span><br />Portfolio</a></li>
+				
+			<li><a href="about.html"><span class="meta">Who are we?</span><br />About</a></li>
+			<li><a href="index.html" class="current"><span class="meta">Homepage</span><br />Home</a></li>
+		</ul>
+		
+		<div class="hr grid_12">&nbsp;</div>
+		<div class="clear"></div>
         
-        <div class="header-green" id="latest-additions">
-            Latest additions
-        </div>
-        <div class="bar"></div>
-        <ul class="link-gray movie-list">
-            <li class="thumbnail">
-    <a href="movies/4767.html">
-        <div class="shiny-container" >
-            <img src="covers/013117.jpg" alt="poster Flashbacks of a Fool&nbsp;&nbsp;(2008)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Flashbacks of a Fool&nbsp;&nbsp;(2008)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/4170.html">
-        <div class="shiny-container" >
-            <img src="covers/012067.jpg" alt="poster Knives Out&nbsp;&nbsp;(2019)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Knives Out&nbsp;&nbsp;(2019)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/2915.html">
-        <div class="shiny-container" >
-            <img src="covers/010579.jpg" alt="poster Layer Cake&nbsp;&nbsp;(2004)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Layer Cake&nbsp;&nbsp;(2004)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/2564.html">
-        <div class="shiny-container" >
-            <img src="covers/010125.jpg" alt="poster Adventures of Tintin, The&nbsp;&nbsp;(2011)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Adventures of Tintin, The&nbsp;&nbsp;(2011)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/2513.html">
-        <div class="shiny-container" >
-            <img src="covers/010069.jpg" alt="poster Girl with the Dragon Tattoo, The&nbsp;&nbsp;(2011)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Girl with the Dragon Tattoo, The&nbsp;&nbsp;(2011)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/1716.html">
-        <div class="shiny-container" >
-            <img src="covers/006491.jpg" alt="poster Dream House&nbsp;&nbsp;(2011)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Dream House&nbsp;&nbsp;(2011)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/1707.html">
-        <div class="shiny-container" >
-            <img src="covers/006482.jpg" alt="poster Defiance&nbsp;&nbsp;(2008)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Defiance&nbsp;&nbsp;(2008)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/1523.html">
-        <div class="shiny-container" >
-            <img src="covers/006281.jpg" alt="poster Invasion, The&nbsp;&nbsp;(2007)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Invasion, The&nbsp;&nbsp;(2007)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/1364.html">
-        <div class="shiny-container" >
-            <img src="covers/006113.jpg" alt="poster Munich&nbsp;&nbsp;(2005)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Munich&nbsp;&nbsp;(2005)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/817.html">
-        <div class="shiny-container" >
-            <img src="covers/003742.jpg" alt="poster Spectre&nbsp;&nbsp;(2015)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Spectre&nbsp;&nbsp;(2015)
-        </div>
-    </a>
-</li>
-
-        </ul>
-        
-
-        
-
-        
-
-        
-        <div class="header-green" id="movies-a">
-            A
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/2564.html">
-        <div class="shiny-container" >
-            <img src="covers/010125.jpg" alt="poster Adventures of Tintin, The&nbsp;&nbsp;(2011)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Adventures of Tintin, The&nbsp;&nbsp;(2011)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-c">
-            C
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/280.html">
-        <div class="shiny-container" >
-            <img src="covers/003193.jpg" alt="poster Casino Royale&nbsp;&nbsp;(2006)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Casino Royale&nbsp;&nbsp;(2006)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/132.html">
-        <div class="shiny-container" >
-            <img src="covers/003043.jpg" alt="poster Cowboys & Aliens&nbsp;&nbsp;(2011)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Cowboys & Aliens&nbsp;&nbsp;(2011)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-d">
-            D
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/1707.html">
-        <div class="shiny-container" >
-            <img src="covers/006482.jpg" alt="poster Defiance&nbsp;&nbsp;(2008)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Defiance&nbsp;&nbsp;(2008)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/1716.html">
-        <div class="shiny-container" >
-            <img src="covers/006491.jpg" alt="poster Dream House&nbsp;&nbsp;(2011)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Dream House&nbsp;&nbsp;(2011)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-f">
-            F
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/4767.html">
-        <div class="shiny-container" >
-            <img src="covers/013117.jpg" alt="poster Flashbacks of a Fool&nbsp;&nbsp;(2008)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Flashbacks of a Fool&nbsp;&nbsp;(2008)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-g">
-            G
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/2513.html">
-        <div class="shiny-container" >
-            <img src="covers/010069.jpg" alt="poster Girl with the Dragon Tattoo, The&nbsp;&nbsp;(2011)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Girl with the Dragon Tattoo, The&nbsp;&nbsp;(2011)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/599.html">
-        <div class="shiny-container" >
-            <img src="covers/003515.jpg" alt="poster Golden Compass, The&nbsp;&nbsp;(2007)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Golden Compass, The&nbsp;&nbsp;(2007)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-i">
-            I
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/1523.html">
-        <div class="shiny-container" >
-            <img src="covers/006281.jpg" alt="poster Invasion, The&nbsp;&nbsp;(2007)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Invasion, The&nbsp;&nbsp;(2007)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-k">
-            K
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/4170.html">
-        <div class="shiny-container" >
-            <img src="covers/012067.jpg" alt="poster Knives Out&nbsp;&nbsp;(2019)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Knives Out&nbsp;&nbsp;(2019)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-l">
-            L
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/309.html">
-        <div class="shiny-container" >
-            <img src="covers/003222.jpg" alt="poster Lara Croft: Tomb Raider&nbsp;&nbsp;(2001)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Lara Croft: Tomb Raider&nbsp;&nbsp;(2001)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/2915.html">
-        <div class="shiny-container" >
-            <img src="covers/010579.jpg" alt="poster Layer Cake&nbsp;&nbsp;(2004)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Layer Cake&nbsp;&nbsp;(2004)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-m">
-            M
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/1364.html">
-        <div class="shiny-container" >
-            <img src="covers/006113.jpg" alt="poster Munich&nbsp;&nbsp;(2005)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Munich&nbsp;&nbsp;(2005)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-q">
-            Q
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/281.html">
-        <div class="shiny-container" >
-            <img src="covers/003194.jpg" alt="poster Quantum of Solace&nbsp;&nbsp;(2008)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Quantum of Solace&nbsp;&nbsp;(2008)
-        </div>
-    </a>
-</li>
-</ul>
-        
-        <div class="header-green" id="movies-s">
-            S
-        </div>
-        <div class="bar">
-            <a href="#top" class="phone-home">HOME</a>
-        </div>
-        <ul class="link-gray movie-list"><li class="thumbnail">
-    <a href="movies/282.html">
-        <div class="shiny-container" >
-            <img src="covers/003195.jpg" alt="poster Skyfall&nbsp;&nbsp;(2012)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Skyfall&nbsp;&nbsp;(2012)
-        </div>
-    </a>
-</li>
-<li class="thumbnail">
-    <a href="movies/817.html">
-        <div class="shiny-container" >
-            <img src="covers/003742.jpg" alt="poster Spectre&nbsp;&nbsp;(2015)" height="135">
-            <div class="shiny-frame"></div>
-        </div>
-        <div class="thumbnail-text">
-            Spectre&nbsp;&nbsp;(2015)
-        </div>
-    </a>
-</li>
-</ul>
-        
-
-        
-
-        
-
-        
-
-        <div class="footer">
-            <p>Created with EMDB V4.08 (C) 2005-2021. No Rights Reserved ;-)</p>
-            <!-- saved from url=(0022)http://internet.e-mail -->
-<span class="plain_text_footer"> <div align="center"><IMG SRC="http://counter.digits.com/?counter={569d1168-191d-8de4-b943-b6df59f1f810}&charset=9&digits=5&rightface&zerofill" width="75" height="20"><br>
-get your own free counter at www.digits.com</div></span>
-
-        </div>
-    </div>
+        <!-- Catch Line and Link -->
+		<h2 class="grid_12 caption clearfix">Welcome! This is <span>AIE Corporation</span>, a professional <u>photography</u> sevices based in Jakarta.</h2>
+		
+		<div class="pr grid_12 clearfix">&nbsp;</div>
+		
+		<!-- Featured Image Slider -->
+		<div id="featured" class="clearfix grid_12">
+			<ul> 
+				<li>
+					<a href="portfolio_sg2014.html">
+						<span>Read about this project</span>
+						<img src="galleries/sgp/sin23.jpg" alt="" />
+					</a>
+				</li>  
+				<li>
+					<a href="portfolio_prewed_01.html">
+						<span>Read about this project</span>
+						<img src="galleries/prewed_01/pwed01.jpg" alt="" />
+					</a>	
+				</li>  
+				<li>
+					<a href="portfolio_prewed_s.html">
+						<span>Read about this project</span>
+						<img src="galleries/prewed_s/pwed_s33.jpg" alt="" />
+					</a>
+		    </li>  
+				<li>
+					<a href="portfolio_kiss.html">
+						<span>Read about this project</span>
+						<img src="galleries/kiss/mainThumb_wk00.jpg" alt="" />
+					</a>
+			  </li>  
+				<li>
+					<a href="portfolio_single.html">
+						<span>Read about this project</span>
+						<img src="galleries/family/maternity14.jpg" alt="" />
+					</a>
+				</li>  
+			</ul> 
+		</div>
+		
+			
+		<!-- Caption Line -->
+	
+		
+		<div class="hr grid_12 clearfix quicknavhr">&nbsp;</div>
+	  <div id="quicknav" class="grid_12">
+			<a class="quicknavgrid_3 quicknav alpha" href="portfolio.html">
+					<h4 class="title ">Recent Work</h4>
+                    <p>Please browse our portfolio of our past work.  Hope to see yours pictures too. </p>
+					
+				
+			</a>
+			<a class="quicknavgrid_3 quicknav" href="about.html">
+					<h4 class="title ">Learn about us</h4>
+  				    <p>Learn more about AIE Corporation, our services, experience, and skills to fulfill your demand </p>
+					
+				
+			</a>
+			<a class="quicknavgrid_3 quicknav" href="blog.html">
+					<h4 class="title ">Read our news</h4>
+                    <p>Get our latest promotion for prewedding photography service in Jakarta and Singapore </p>
+					
+				
+			</a>
+			<a class="quicknavgrid_3 quicknav" href="http://www.facebook.com/aie.corporation" target="_blank">
+					<h4 class="title ">Like us on Facebook</h4>
+                    <p>Like our Facebook fanpage and fell free to tag yourself in our photo album</p>
+					
+			</a>
+		</div>
+	  <div class="hr grid_12 clearfix">&nbsp;</div>
+		<!-- Footer -->
+		<p class="grid_12 footer clearfix">
+			<span class="float"><b>&copy; Copyright</b> 2015 AIECorporation</span>
+			<a class="float right" href="#">top</a>
+		</p>
+		
+	</div><!--end wrapper-->
 </body>
 </html>
